@@ -1,6 +1,6 @@
 #! /bin/bash
 echo "testing" >> ~/.ipfs-screen/ipfs-add.log
-file=ipfs-screen.jpg
+file=ipfs-screen.png
 
 gnome-screenshot -a -f ~/.ipfs-screen/$file
 
