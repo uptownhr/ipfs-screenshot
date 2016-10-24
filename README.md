@@ -21,5 +21,5 @@ Currently no installer so steps need to be taken manually.
 
 
 # Todo
-[ ] Create installer script
-[ ] Support for OSX and Windows
+- [ ] Create installer script
+- [ ] Support for OSX and Windows
