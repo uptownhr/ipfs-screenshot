@@ -1,21 +1,21 @@
 #! /bin/bash
-echo "testing" >> ~/.ipfs-screen/ipfs-add.log
-file=ipfs-screen.jpg
+echo "testing" 1>> "$HOME/.ipfs-screen/ipfs-add.log"
+
+FPATH="ipfs-screen.jpg"
 
 if command -v gnome-screenshot &> /dev/null; then
-    gnome-screenshot -a -f ~/.ipfs-screen/$file
+    gnome-screenshot -a -f "$HOME/.ipfs-screen/$FPATH"
 elif command -v mate-screenshot &> /dev/null; then
-    mate-screenshot -a -f ~/.ipfs-screen/$file
+    mate-screenshot -a -f "$HOME/.ipfs-screen/$FPATH"
 else
     echo "OS is not supported yet"
     exit 1
 fi
 
-hash_log=$(ipfs add ~/.ipfs-screen/$file)
+hash_log=$(ipfs add "$HOME/.ipfs-screen/$FPATH")
 
-echo $hash_log >> ~/.ipfs-screen/ipfs-add.log
+echo "$hash_log" 1>> "$HOME/.ipfs-screen/ipfs-add.log"
 
+HASH=$(echo "$hash_log" | awk '{ print $2; }')
 
-hash=$(echo $hash_log | awk '{ print $2; }')
-
-echo "https://ipfs.io/ipfs/$hash" | xclip -selection clipboard
+echo "https://ipfs.io/ipfs/$HASH" | xclip -selection clipboard
