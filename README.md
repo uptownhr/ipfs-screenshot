@@ -17,3 +17,9 @@ Currently no installer so steps need to be taken manually.
 1. use keyboard shortcut ie: ctrl + shift + s
 2. Select screen area
 3. Paste, ipfs url to the screenshot will be available for use
+
+
+
+# Todo
+[ ] Create installer script
+[ ] Support for OSX and Windows
