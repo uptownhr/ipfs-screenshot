@@ -1,7 +1,7 @@
 #! /bin/bash
 mkdir -p ~/.ipfs-screen/
 echo "testing" >> ~/.ipfs-screen/ipfs-add.log
-file=ipfs-screen.png
+file=$(date +"%Y-%m-%d-%T-screenshot")
 
 platform=`uname`
 if [[ "$platform" == "Darwin" ]]; then
