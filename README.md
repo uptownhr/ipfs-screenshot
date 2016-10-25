@@ -1,6 +1,8 @@
 ![IPFS](https://ipfs.io/ipfs/QmZkNPfhoZnvHfEvaeMk6FFXUbZXbNGqEt4VH57QA7Yj4J)
 # IPFS screenshot url
 
+[![Join the chat at https://gitter.im/uptownhr/ipfs-screenshot](https://badges.gitter.im/uptownhr/ipfs-screenshot.svg)](https://gitter.im/uptownhr/ipfs-screenshot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Like cloudapp but using IPFS. If you're asking why IPFS, you should check out ipfs.io. A simple way to think of IPFS is torrents but accessible through HTTP. 
 
 Sample IPFS link: https://ipfs.io/ipfs/QmTf3EquRYzxa4njTRpimp6YEcJJPSUf5pQE9TE54qCa3M
