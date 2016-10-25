@@ -16,7 +16,7 @@ Currently no installer so steps need to be taken manually.
 3. Clone repository, `git clone git@github.com:uptownhr/ipfs-screenshot`
 4. Start ipfs daemon, `ipfs daemon`
 5. create keyboard shortcut, System Settings -> Keyboard -> Shortcuts -> Custom Shortcuts -> +
-- - command: /{path-to-ipfs-screen}/ipfs-screen.sh
+  - command: /{path-to-ipfs-screen}/ipfs-screen.sh
 
 # Setup on Mac OS
 
