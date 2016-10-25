@@ -1,6 +1,6 @@
 # IPFS screenshot url
 
-Like cloudapp but using IPFS.
+Like cloudapp but using IPFS. If you're asking why IPFS, you should check out ipfs.io. A simple way to think of IPFS is torrents but accessible through HTTP. 
 
 # Setup on Ubuntu
 Currently no installer so steps need to be taken manually.
