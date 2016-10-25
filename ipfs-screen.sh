@@ -22,4 +22,4 @@ if [[ "$platform" == "Darwin" ]]; then
   clipboard_command="pbcopy"
 fi
 
-echo "https://ipfs.io/ipfs/$hash" | `$clipboard_command`
+echo -n "https://ipfs.io/ipfs/$hash" | `$clipboard_command`
