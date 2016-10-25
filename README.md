@@ -21,7 +21,7 @@ Currently no installer so steps need to be taken manually.
 # Setup on Mac OS
 
 1. Install [IPFS](https://ipfs.io/docs/install/)
-2. Clone repository, `git clone git@github.com:uptownhr/ipfs-screenshot
+2. Clone repository, `git clone git@github.com:uptownhr/ipfs-screenshot`
 3. Start ipfs daemon, `ipfs daemon`
 
 
