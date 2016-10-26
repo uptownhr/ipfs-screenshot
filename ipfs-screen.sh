@@ -18,4 +18,4 @@ echo $hash_log >> ~/.ipfs-screen/ipfs-add.log
 
 hash=$(echo $hash_log | awk '{ print $2; }')
 
-echo "https://ipfs.io/ipfs/$hash" | $clipboard_command
+echo -n "https://ipfs.io/ipfs/$hash" | $clipboard_command
