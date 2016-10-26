@@ -33,7 +33,7 @@ Currently no installer so steps need to be taken manually.
 
 
 # Todo
-- [ ] Create installer script
+- [x] Create installer script
 - [x] Support for OSX 
 - [ ] Support for Windows
 - [ ] Create Video / Gif Recorder
