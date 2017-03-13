@@ -5,7 +5,8 @@ file=$(date +"%Y-%m-%d-%T-screenshot")
 clipboard_command="xclip -selection clipboard"
 
 platform=`uname`
-if [[ "$platform" == "Darwin" ]]; then
+if [[ "$platform" == "Darwin" ]]
+then
   screencapture -t jpg -i ~/.ipfs-screen/$file
   clipboard_command="pbcopy"
 else
